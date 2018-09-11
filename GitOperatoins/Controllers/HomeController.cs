@@ -8,33 +8,28 @@ namespace GitOperatoins.Controllers
 {
     public class HomeController : Controller
     {
-        public ActionResult Index()
+        public ActionResult NewIndex()
         {
             return View();
         }
 
-        public ActionResult About()
+        public ActionResult NewAbout()
         {
             ViewBag.Message = "Your application description page.";
-
+            ViewBag.Message = "Your application description page.";
+            ViewBag.Message = "Your application description page.";
+            ViewBag.Message = "Your application description page.";
             return View();
         }
 
-        public ActionResult Contact()
+        public ActionResult NewReContact()
         {
             ViewBag.Message = "Your contact page.";
 
             return View();
         }
 
-        public ActionResult ReContact()
-        {
-            ViewBag.Message = "Your contact page.";
-
-            return View();
-        }
-
-        public ActionResult C12233()
+        public ActionResult NewC12233()
         {
             ViewBag.Message = "Your contact page.";
 
