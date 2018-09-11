@@ -27,25 +27,20 @@ namespace GitOperatoins.Controllers
             return View();
         }
 
-        public ActionResult Contact112255()
+        public ActionResult ReContact()
         {
             ViewBag.Message = "Your contact page.";
 
             return View();
         }
 
-        public ActionResult C1()
+        public ActionResult C12233()
         {
             ViewBag.Message = "Your contact page.";
 
             return View();
         }
 
-        public ActionResult C2()
-        {
-            ViewBag.Message = "Your contact page.";
-
-            return View();
-        }
+        
     }
 }
