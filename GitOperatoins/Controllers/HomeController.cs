@@ -26,5 +26,12 @@ namespace GitOperatoins.Controllers
 
             return View();
         }
+
+        public ActionResult Contact112233()
+        {
+            ViewBag.Message = "Your contact page.";
+
+            return View();
+        }
     }
 }
