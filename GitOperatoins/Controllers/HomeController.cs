@@ -41,6 +41,19 @@ namespace GitOperatoins.Controllers
             return View();
         }
 
-        
+        public ActionResult C1()
+        {
+            ViewBag.Message = "Your contact page.";
+
+            return View();
+        }
+
+        public ActionResult C2()
+        {
+            ViewBag.Message = "Your contact page.";
+
+            return View();
+}
+
     }
 }
