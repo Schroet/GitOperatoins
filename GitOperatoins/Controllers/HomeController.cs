@@ -16,45 +16,45 @@ namespace GitOperatoins.Controllers
         public ActionResult AboutNew()
         {
             Console.Write("new changes");
-            ViewBag.Message = "Your application description page.";
+            ViewBag.Message = "AboutNew";
             Console.Write("new changes");
             return View();
         }
 
         public ActionResult Contact()
         {
-            ViewBag.Message = "Your contact page.";
+            ViewBag.Message = "Contact";
             Console.Write("new changes");
             return View();
         }
 
         public ActionResult ReContact()
         {
-            ViewBag.Message = "Your contact page.";
+            ViewBag.Message = "ReContact";
             Console.Write("new changes");
             return View();
         }
 
         public ActionResult C12233()
         {
-            ViewBag.Message = "Your contact page.";
+            ViewBag.Message = "C12233";
             Console.Write("new changes");
             return View();
         }
 
         public ActionResult C1()
         {
-            ViewBag.Message = "Your contact page.";
+            ViewBag.Message = "C1";
             Console.Write("new changes");
             return View();
         }
 
         public ActionResult C2()
         {
-            ViewBag.Message = "Your contact page.";
+            ViewBag.Message = "C2";
             Console.Write("new changes");
             return View();
-}
+        }
 
     }
 }
