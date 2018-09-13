@@ -13,6 +13,12 @@ namespace GitOperatoins.Controllers
             return View();
         }
 
+        public ActionResult Index2()
+        {
+            Console.Write("Index2");
+            return View();
+        }
+
         public ActionResult AboutNew()
         {
             Console.Write("new changes");
